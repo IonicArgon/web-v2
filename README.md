@@ -1,2 +1,3 @@
 # web-v2
-better website maybe? idfk i don't like webdev
+
+acc nvm webdev is alright because it makes me feel big brain
