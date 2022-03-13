@@ -1,14 +1,12 @@
 import { ChakraProvider } from "@chakra-ui/provider";
 import Layout from "../components/layouts/main";
-import ContextWrapper from "../context/state";
+import theme from "../lib/theme";
 
 const Website = ({ Component, pageProps, router }) => {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <Layout router={router}>
-        <ContextWrapper>
-          <Component {...pageProps} key={router.route} />
-        </ContextWrapper>
+        <Component {...pageProps} key={router.route} />
       </Layout>
     </ChakraProvider>
   );
