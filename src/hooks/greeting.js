@@ -17,9 +17,8 @@ const GreetingWrapper = ({ children }) => {
   let [index, setIndex] = useState(0);
   let [fade, setFade] = useState(true);
   const [mounted, setMounted] = useState(false);
-  let textAlign = useMediaQuery("(max-width: 768px)", { noSsr: true })
-    ? "center"
-    : "left";
+  let textAlignQuery = useMediaQuery("(max-width: 768px)", { noSsr: true })
+  let textAlign = textAlignQuery[0] ? "center" : "left";
 
   useEffect(() => {
     setMounted(true);
