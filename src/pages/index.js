@@ -58,7 +58,7 @@ const Page = () => {
           <Link href="https://www.bramptonrobotics.org/" isExternal>
             Brampton Robotics
           </Link>
-          .
+          ..
         </Paragraph>
       </Section>
       <Section delay={0.2}>
