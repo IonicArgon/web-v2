@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Fade, Heading } from "@chakra-ui/react";
+import { Box, Fade, Heading, useMediaQuery } from "@chakra-ui/react";
 
 const GreetingWrapper = ({ children }) => {
   const greetings = [
@@ -16,6 +16,14 @@ const GreetingWrapper = ({ children }) => {
   ];
   let [index, setIndex] = useState(0);
   let [fade, setFade] = useState(true);
+  const [mounted, setMounted] = useState(false);
+  let textAlign = useMediaQuery("(max-width: 768px)", { noSsr: true }).at(0)
+    ? "center"
+    : "left";
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     setTimeout(() => {
@@ -28,7 +36,7 @@ const GreetingWrapper = ({ children }) => {
   }, [index, greetings.length]);
 
   return (
-    <>
+    <Box textAlign={mounted ? textAlign : null}>
       <Fade in={fade}>
         <Heading size="lg">{greetings[index]}</Heading>
       </Fade>
@@ -36,7 +44,7 @@ const GreetingWrapper = ({ children }) => {
       <Fade in={fade}>
         <Heading size="lg">{postGreetings[index]}</Heading>
       </Fade>
-    </>
+    </Box>
   );
 };
 

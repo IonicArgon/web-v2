@@ -16,7 +16,6 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggle from "./theme-toggle";
-import { ThemeContext } from "@emotion/react";
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href;
@@ -44,7 +43,6 @@ const NavBar = (props) => {
       bg={useColorModeValue("#ffffff40", "#20202380")}
       style={{ backdropFilter: "blur(10px)" }}
       zIndex={1}
-      mt={2}
       {...props}
     >
       <Container
@@ -53,7 +51,7 @@ const NavBar = (props) => {
         maxW="container.md"
         wrap="wrap"
         alignItems="center"
-        justiy="space-between"
+        justify="space-between"
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={"tighter"}>
@@ -92,7 +90,7 @@ const NavBar = (props) => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/Blog" passHref>
+                <NextLink href="/blog" passHref>
                   <MenuItem as={Link}>Blog</MenuItem>
                 </NextLink>
               </MenuList>

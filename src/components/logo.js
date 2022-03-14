@@ -22,10 +22,7 @@ const LogoBox = styled.span`
 `;
 
 const Logo = () => {
-  const tangentImage = `/images/tangent-no-text${useColorModeValue(
-    "",
-    "-dark"
-  )}.png`;
+  const tangentImage = `/images/tangent${useColorModeValue("", "-dark")}.png`;
 
   return (
     <Link href="/">
