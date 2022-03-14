@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
 
       <Container maxW="container.lg" pt={20}>
         {children}
-        
+
         <Footer />
       </Container>
     </Box>

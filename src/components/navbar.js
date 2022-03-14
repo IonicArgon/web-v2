@@ -74,7 +74,7 @@ const NavBar = (props) => {
         </Stack>
 
         <Box flex={1} align="right">
-        <ThemeToggle />
+          <ThemeToggle />
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
             <Menu>
               <MenuButton

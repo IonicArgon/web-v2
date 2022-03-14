@@ -1,11 +1,25 @@
-import { Box, Button, Container, chakra, Heading, Link, List, ListItem } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Container,
+  chakra,
+  Heading,
+  Link,
+  List,
+  ListItem,
+} from "@chakra-ui/react";
 import GreetingWrapper from "../hooks/greeting";
 import Image from "next/image";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { Timeline, TimelineDate } from "../components/timeline";
 import { Skill, SkillIcon } from "../components/skills";
-import { IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin } from "react-icons/io";
+import {
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoFacebook,
+  IoLogoLinkedin,
+} from "react-icons/io";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: (prop) =>
@@ -114,7 +128,7 @@ const Page = () => {
       <Section delay={0.5}>
         <Heading variant="section-title">On the 🌐</Heading>
         <List>
-        <ListItem>
+          <ListItem>
             <Link href="https://www.facebook.com/marco.tan.200405" isExternal>
               <Button
                 variant="ghost"
@@ -147,9 +161,12 @@ const Page = () => {
               </Button>
             </Link>
           </ListItem>
-          
+
           <ListItem>
-            <Link href="https://www.linkedin.com/in/marco-tan-9191021a3/" isExternal>
+            <Link
+              href="https://www.linkedin.com/in/marco-tan-9191021a3/"
+              isExternal
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -159,7 +176,6 @@ const Page = () => {
               </Button>
             </Link>
           </ListItem>
-          
         </List>
       </Section>
     </Container>
