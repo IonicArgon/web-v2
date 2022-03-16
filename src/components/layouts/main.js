@@ -7,48 +7,56 @@ const Main = ({ children, router }) => {
   return (
     <>
       <Box as="main" pb={8}>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
-        <meta name="description" content="Hello, I'm Marco Tan!" />
-        <meta name="author" content="Marco Tan" />
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="utf-8" />
+          <meta name="description" content="Hello, I'm Marco Tan!" />
+          <meta name="author" content="Marco Tan" />
 
-        <meta property="og:title" content="Marco Tan - Homepage" />
-        <meta property="og:site_name" content="Marco Tan's Homepage" />
-        <meta property="og:url" content="https://ionicargon.vercel.app/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/profile.jpg" />
+          <meta property="og:title" content="Marco Tan - Homepage" />
+          <meta property="og:site_name" content="Marco Tan's Homepage" />
+          <meta property="og:url" content="https://ionicargon.vercel.app/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="/images/profile.jpg" />
 
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://ionicargon.vercel.app/" />
-        <meta property="twitter:title" content="Marco Tan - Homepage" />
-        <meta property="twitter:description" content="Hello, I'm Marco Tan!" />
-        <meta property="twitter:image" content="/images/profile.jpg" />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta
+            property="twitter:url"
+            content="https://ionicargon.vercel.app/"
+          />
+          <meta property="twitter:title" content="Marco Tan - Homepage" />
+          <meta
+            property="twitter:description"
+            content="Hello, I'm Marco Tan!"
+          />
+          <meta property="twitter:image" content="/images/profile.jpg" />
 
-        <meta name="theme-color" content="#458588" />
+          <meta name="theme-color" content="#458588" />
 
-        <title>Marco Tan - Homepage</title>
-      </Head>
+          <title>Marco Tan - Homepage</title>
+        </Head>
 
-      <NavBar path={router.asPath} />
+        <NavBar path={router.asPath} />
 
-      <noscript>
-        <h1 style={{
-          position: "fixed",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-        }}>
-          Please enable JavaScript to view this website.
-        </h1>
-      </noscript>
+        <noscript>
+          <h1
+            style={{
+              position: "fixed",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+            }}
+          >
+            Please enable JavaScript to view this website.
+          </h1>
+        </noscript>
 
-      <Container maxW="container.lg" pt={20}>
-        {children}
+        <Container maxW="container.lg" pt={20}>
+          {children}
 
-        <Footer />
-      </Container>
-    </Box>
+          <Footer />
+        </Container>
+      </Box>
     </>
   );
 };
