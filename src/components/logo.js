@@ -1,4 +1,4 @@
-import Link from "next/link";
+import NextLink from "next/link";
 import Image from "next/image";
 import { useColorModeValue } from "@chakra-ui/react";
 import styled from "@emotion/styled";
@@ -22,16 +22,16 @@ const LogoBox = styled.span`
 `;
 
 const Logo = () => {
-  const tangentImage = `/images/tangent${useColorModeValue("", "-dark")}.png`;
+  const tangentImage = `/images/logo/tangent${useColorModeValue("", "-dark")}.png`;
 
   return (
-    <Link href="/">
+    <NextLink href="/">
       <a>
         <LogoBox>
           <Image src={tangentImage} width={50} height={40} alt="logo" />
         </LogoBox>
       </a>
-    </Link>
+    </NextLink>
   );
 };
 

@@ -19,13 +19,13 @@ import ThemeToggle from "./theme-toggle";
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href;
-  const inactiveColor = useColorModeValue("gray.800", "whiteAlpha.900");
+  const inactiveColor = useColorModeValue("#7c6f64", "#a89984");
   return (
-    <NextLink href={href}>
+    <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
-        bg={active ? "glassTeal" : undefined}
-        color={active ? "#202023" : inactiveColor}
+        bg={active ? "#8ec07c" : undefined}
+        color={active ? "#282828" : inactiveColor}
       >
         {children}
       </Link>
@@ -40,7 +40,7 @@ const NavBar = (props) => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue("#ffffff40", "#20202380")}
+      bg={useColorModeValue("#f2e5bc80", "#32302f80")}
       style={{ backdropFilter: "blur(10px)" }}
       zIndex={1}
       {...props}
@@ -68,7 +68,7 @@ const NavBar = (props) => {
           <LinkItem path={path} href="/projects">
             Projects
           </LinkItem>
-          <LinkItem path={path} href="/Blog">
+          <LinkItem path={path} href="/blog">
             Blog
           </LinkItem>
         </Stack>

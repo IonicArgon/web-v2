@@ -10,4 +10,5 @@ export const Skill = styled(Box)`
 export const SkillIcon = styled.span`
   padding: 0.1em;
   font-size: 3em;
+  color: ${props => props.color};
 `;
