@@ -15,6 +15,8 @@ const Project = () => {
         <Paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu urna.
         </Paragraph>
+        <Heading size="lg">TEMP.</Heading>
+        <BlogImage src="/images/blog/change-up.png" alt="Change Up" />
       </Container>
     </Layout>
   );

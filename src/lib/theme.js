@@ -32,9 +32,7 @@ const components = {
   },
 };
 
-const colors = {
-  
-};
+const colors = {};
 
 const config = {
   initialColorMode: "dark",

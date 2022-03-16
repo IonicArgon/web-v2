@@ -48,7 +48,7 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <ProjectMeta>Blogpost</ProjectMeta>
-            <NextLink href="/construction">
+            <NextLink href="/construction" passHref>
               <Link>VEX 2020-2021 Season Recap</Link>
             </NextLink>
           </ListItem>

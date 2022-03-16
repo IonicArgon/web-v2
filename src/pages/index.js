@@ -7,7 +7,7 @@ import {
   Link,
   List,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
 } from "@chakra-ui/react";
 import GreetingWrapper from "../hooks/greeting";
 import Image from "next/image";
@@ -108,22 +108,22 @@ const Page = () => {
         <Section delay={0.4}>
           <Heading variant="section-title">Things I 🧠</Heading>
           <Skill>
-            <SkillIcon color='#458588'>
+            <SkillIcon color="#458588">
               <i className="devicon-cplusplus-plain"></i>
             </SkillIcon>
-            <SkillIcon color='#fabd2f'>
+            <SkillIcon color="#fabd2f">
               <i className="devicon-javascript-plain"></i>
             </SkillIcon>
-            <SkillIcon color='#d79921'>
+            <SkillIcon color="#d79921">
               <i className="devicon-python-plain"></i>
             </SkillIcon>
             <SkillIcon>
               <i className="devicon-rust-plain"></i>
             </SkillIcon>
-            <SkillIcon color='#fe8019'>
+            <SkillIcon color="#fe8019">
               <i className="devicon-illustrator-plain"></i>
             </SkillIcon>
-            <SkillIcon color='#83a598'>
+            <SkillIcon color="#83a598">
               <i className="devicon-photoshop-plain"></i>
             </SkillIcon>
           </Skill>

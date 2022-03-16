@@ -4,11 +4,11 @@ import { Badge, Box, LinkBox, LinkOverlay, Text } from "@chakra-ui/react";
 import { Global } from "@emotion/react";
 
 export const BlogGridItem = ({ id, title, date, thumbnail }) => {
-  const idChecked = (id === "construction") ? "construction" : "/blog/" + id;
+  const idChecked = id === "construction" ? "construction" : "/blog/" + id;
 
   return (
     <Box w="100%" align="center">
-      <NextLink href={idChecked}>
+      <NextLink href={idChecked} passHref>
         <LinkBox cursor="pointer">
           <Image
             src={thumbnail}
@@ -29,11 +29,11 @@ export const BlogGridItem = ({ id, title, date, thumbnail }) => {
 };
 
 export const ProjectGridItem = ({ children, id, title, thumbnail }) => {
-  const idChecked = (id === "construction") ? "construction" : "/projects/" + id;
+  const idChecked = id === "construction" ? "construction" : "/projects/" + id;
 
   return (
     <Box w="100%" align="center">
-      <NextLink href={idChecked}>
+      <NextLink href={idChecked} passHref>
         <LinkBox cursor="pointer">
           <Image
             src={thumbnail}

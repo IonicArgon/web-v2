@@ -6,7 +6,7 @@ export const Title = ({ children }) => {
   return (
     <Box display="inline-flex">
       <Box>
-        <NextLink href="/blog">
+        <NextLink href="/blog" passHref>
           <Link>Blog</Link>
         </NextLink>
         <span>

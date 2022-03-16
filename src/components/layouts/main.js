@@ -9,7 +9,10 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="description" content="Hey, I'm Marco Tan! I'm a hobbyist programmer interested in mechatronics." />
+        <meta
+          name="description"
+          content="Hey, I'm Marco Tan! I'm a hobbyist programmer interested in mechatronics."
+        />
         <meta name="author" content="Marco Tan" />
 
         <meta property="og:title" content="Marco Tan - Homepage" />
@@ -21,7 +24,10 @@ const Main = ({ children, router }) => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://ionicargon.vercel.app/" />
         <meta property="twitter:title" content="Marco Tan - Homepage" />
-        <meta property="twitter:description" content="Hey, I'm Marco Tan! I'm a hobbyist programmer interested in mechatronics." />
+        <meta
+          property="twitter:description"
+          content="Hey, I'm Marco Tan! I'm a hobbyist programmer interested in mechatronics."
+        />
         <meta property="twitter:image" content="/images/profile.jpg" />
 
         <title>Marco Tan - Homepage</title>
