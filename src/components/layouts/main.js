@@ -24,7 +24,7 @@ const Main = ({ children, router }) => {
         <meta property="twitter:description" content="Hello, I'm Marco Tan!" />
         <meta property="twitter:image" content="/images/profile.jpg" />
 
-        <meta property="theme-color" content="#458588" />
+        <meta name="theme-color" content="#458588" />
 
         <title>Marco Tan - Homepage</title>
       </Head>
