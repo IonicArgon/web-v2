@@ -116,7 +116,7 @@ const Blog = () => {
         <br />
 
         <Paragraph>
-          to be finished soon im too tired to finish this rn it's 01:52 am lo
+          to be finished soon im too tired to finish this rn it&apos;s 01:52 am lo
         </Paragraph>
       </Container>
     </Layout>
