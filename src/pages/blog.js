@@ -5,6 +5,7 @@ import { BlogGridItem } from "../components/grid-item";
 
 //* image resources
 import placeholder from "../../public/images/placeholder.png";
+import thumbChangeUp from "../../public/images/blog/thumbs/thumbChangeUp.png";
 
 const Blog = () => {
   return (
@@ -40,10 +41,10 @@ const Blog = () => {
               thumbnail={placeholder}
             />
             <BlogGridItem
-              id="construction"
+              id="change-up"
               title="My VEX 2020-2021 season recap"
               date="2021-06-15"
-              thumbnail={placeholder}
+              thumbnail={thumbChangeUp}
             />
           </SimpleGrid>
         </Section>

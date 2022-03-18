@@ -24,6 +24,7 @@ const Project = () => {
           Code for team 1104A&apos;s robot for the VRC game &quot;Change
           Up&quot;. Makes use of basic tracking sensors and a simple PID loop to
           move around as well as colour sensors for ball detection and sorting.
+          Code was submitted to the Annotated Programming Skills Challenge.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
@@ -32,11 +33,14 @@ const Project = () => {
                 <ProjectMeta>Repos</ProjectMeta>
               </Box>
               <Box>
-                <Link href="https://github.com/IonicArgon/pain-peko">
+                <Link href="https://github.com/IonicArgon/pain-peko" isExternal>
                   Refactored <ExternalLinkIcon mx="2px" />
                 </Link>
                 {"  "}
-                <Link href="https://github.com/IonicArgon/2020-2021-bionic-beaver/tree/marco-dec_2020">
+                <Link
+                  href="https://github.com/IonicArgon/2020-2021-bionic-beaver/tree/marco-dec_2020"
+                  isExternal
+                >
                   Original <ExternalLinkIcon mx="2px" />
                 </Link>
               </Box>
@@ -48,13 +52,16 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <ProjectMeta>Blogpost</ProjectMeta>
-            <NextLink href="/construction" passHref>
+            <NextLink href="/blog/change-up" passHref>
               <Link>VEX 2020-2021 Season Recap</Link>
             </NextLink>
           </ListItem>
         </List>
 
-        <ProjectImage src="/images/projects/change-up.png" alt="Change Up" />
+        <ProjectImage
+          src="/images/projects/change-up/robot.png"
+          alt="Final iteration robot for this season."
+        />
 
         <Center>
           <iframe

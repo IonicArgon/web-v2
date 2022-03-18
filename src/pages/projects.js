@@ -5,6 +5,7 @@ import { ProjectGridItem } from "../components/grid-item";
 
 //* image resources
 import placeholder from "../../public/images/placeholder.png";
+import thumbChangeUp from "../../public/images/projects/thumbs/thumbChangeUp.png";
 
 const Projects = () => {
   return (
@@ -43,7 +44,7 @@ const Projects = () => {
             <ProjectGridItem
               id="change-up"
               title="VRC Season: Change Up"
-              thumbnail={placeholder}
+              thumbnail={thumbChangeUp}
             >
               VRC code which made use of simpler control theory for a simpler
               game.

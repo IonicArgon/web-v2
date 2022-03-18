@@ -175,7 +175,7 @@ const Page = () => {
                   color="#8ec07c"
                   leftIcon={<IoLogoLinkedin />}
                 >
-                  Marco Tan
+                  @marcotan04
                 </Button>
               </Link>
             </ListItem>

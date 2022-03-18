@@ -22,6 +22,10 @@ const components = {
         marginTop: 3,
         marginBottom: 4,
       },
+      "image-caption": {
+        fontSize: 14,
+        textAlign: "center",
+      },
     },
   },
   Link: {
@@ -39,11 +43,17 @@ const config = {
   useSystemColorMode: true,
 };
 
+const fonts = {
+  heading: "Varela Round, sans-serif",
+  body: "Varela Round, sans-serif",
+};
+
 const theme = extendTheme({
   colors,
   components,
   config,
   styles,
+  fonts,
 });
 
 export default theme;
