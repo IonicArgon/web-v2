@@ -114,10 +114,13 @@ const Page = () => {
             <SkillIcon color="#fabd2f">
               <i className="devicon-javascript-plain"></i>
             </SkillIcon>
+            <SkillIcon color="#458588">
+              <i className="devicon-lua-plain"></i>
+            </SkillIcon>
             <SkillIcon color="#d79921">
               <i className="devicon-python-plain"></i>
             </SkillIcon>
-            <SkillIcon>
+            <SkillIcon color="#d65d0e">
               <i className="devicon-rust-plain"></i>
             </SkillIcon>
             <SkillIcon color="#fe8019">
