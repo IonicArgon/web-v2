@@ -73,7 +73,7 @@ const GreetingWrapper = ({ children }) => {
   return (
     <Box textAlign={mounted ? textAlign : null}>
       <Fade in={fade}>
-        <Heading size="lg">{greeting(time).at(index)}</Heading>
+        <Heading size="lg">{greeting(time)[index]}</Heading>
       </Fade>
       {children}
       <Fade in={fade}>
