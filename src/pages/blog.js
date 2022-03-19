@@ -19,27 +19,38 @@ const Blog = () => {
           <SimpleGrid columns={[1, 1, 2]} spacing={4}>
             <BlogGridItem
               id="construction"
-              title="I have a newfound respect for web development"
-              date="2022-03-15"
+              title="Javascript isn't so bad after all"
+              date="2022-03-19"
               thumbnail={placeholder}
             />
             <BlogGridItem
               id="construction"
-              title="My VEX 2021-2022 season recap"
-              date="2022-03-05"
+              title="I have a newfound respect for web development"
+              date="2022-03-15"
               thumbnail={placeholder}
             />
           </SimpleGrid>
         </Section>
 
         <Section delay={0.1}>
-          <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <SimpleGrid columns={[1, 1, 2]} spacing={4}>
+            <BlogGridItem
+              id="construction"
+              title="My VEX 2021-2022 season recap"
+              date="2022-03-05"
+              thumbnail={placeholder}
+            />
             <BlogGridItem
               id="construction"
               title="A mild amount of Python tomfoolery"
               date="2022-02-21"
               thumbnail={placeholder}
             />
+          </SimpleGrid>
+        </Section>
+
+        <Section delay={0.2}>
+          <SimpleGrid columns={[1, 1, 2]} gap={6}>
             <BlogGridItem
               id="change-up"
               title="My VEX 2020-2021 season recap"

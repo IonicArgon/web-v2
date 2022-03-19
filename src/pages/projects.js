@@ -18,6 +18,14 @@ const Projects = () => {
           <SimpleGrid columns={[1, 1, 2]} spacing={4}>
             <ProjectGridItem
               id="construction"
+              title="CLI"
+              thumbnail={placeholder}
+            >
+              A simple CLI using Node.js{" "}
+              <em>because I desperately need more Javascript practice.</em>
+            </ProjectGridItem>
+            <ProjectGridItem
+              id="construction"
               title="Portfolio Website"
               thumbnail={placeholder}
             >
