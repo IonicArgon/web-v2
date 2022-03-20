@@ -7,6 +7,7 @@ import { ProjectGridItem } from "../components/grid-item";
 import placeholder from "../../public/images/placeholder.png";
 import thumbChangeUp from "../../public/images/projects/thumbs/thumbChangeUp.png";
 import thumbCLI from "../../public/images/projects/thumbs/thumbCLI.png";
+import thumbWebsite from "../../public/images/projects/thumbs/thumbWebsite.png";
 
 const Projects = () => {
   return (
@@ -22,9 +23,9 @@ const Projects = () => {
               <em>because I desperately need more Javascript practice.</em>
             </ProjectGridItem>
             <ProjectGridItem
-              id="construction"
+              id="website"
               title="Portfolio Website"
-              thumbnail={placeholder}
+              thumbnail={thumbWebsite}
             >
               Learning the basics of web design through baptism by fire. Powered
               by Next.js and ChakraUI.
