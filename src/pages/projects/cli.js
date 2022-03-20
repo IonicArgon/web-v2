@@ -1,10 +1,4 @@
-import {
-  Badge,
-  Container,
-  Link,
-  List,
-  ListItem,
-} from "@chakra-ui/react";
+import { Badge, Container, Link, List, ListItem } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, ProjectImage, ProjectMeta } from "../../components/project";
@@ -34,6 +28,12 @@ const Project = () => {
             <ProjectMeta>Repo</ProjectMeta>
             <Link href="https://github.com/IonicArgon/cli" isExternal>
               CLI <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <ProjectMeta>NPM Page</ProjectMeta>
+            <Link href="https://www.npmjs.com/package/marco-tan-cli" isExternal>
+              marco-tan-cli <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
