@@ -6,6 +6,7 @@ import { ProjectGridItem } from "../components/grid-item";
 //* image resources
 import placeholder from "../../public/images/placeholder.png";
 import thumbChangeUp from "../../public/images/projects/thumbs/thumbChangeUp.png";
+import thumbCLI from "../../public/images/projects/thumbs/thumbCLI.png";
 
 const Projects = () => {
   return (
@@ -16,11 +17,7 @@ const Projects = () => {
             Projects
           </Heading>
           <SimpleGrid columns={[1, 1, 2]} spacing={4}>
-            <ProjectGridItem
-              id="construction"
-              title="CLI"
-              thumbnail={placeholder}
-            >
+            <ProjectGridItem id="cli" title="CLI" thumbnail={thumbCLI}>
               A simple CLI using Node.js{" "}
               <em>because I desperately need more Javascript practice.</em>
             </ProjectGridItem>

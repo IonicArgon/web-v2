@@ -225,18 +225,15 @@ const Blog = () => {
             I probably won&apos;t be convincing the REC Foundation to fix their
             hardware issues anytime soon,
           </em>{" "}
-          but I can at least improve my skill set, coding knowledge-wise and 
+          but I can at least improve my skill set, coding knowledge-wise and
           problem solving-wise. This new game, &quot;Tipping Point&quot;, seems
           like it&apos;s going to help me with just that&mdash;it looks pretty
-          challenging and there&apos;s a lot of unique problems I&apos;m going to
-          have to try solving, but that&apos;s where the fun is.
+          challenging and there&apos;s a lot of unique problems I&apos;m going
+          to have to try solving, but that&apos;s where the fun is.
         </Paragraph>
         <br />
-        <Paragraph>
-          I&apos;ll see you all in next year&apos;s season!
-        </Paragraph>
+        <Paragraph>I&apos;ll see you all in next year&apos;s season!</Paragraph>
         <br />
-        
       </Container>
     </Layout>
   );
