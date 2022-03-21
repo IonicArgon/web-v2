@@ -8,6 +8,7 @@ import placeholder from "../../public/images/placeholder.png";
 import thumbChangeUp from "../../public/images/projects/thumbs/thumbChangeUp.png";
 import thumbCLI from "../../public/images/projects/thumbs/thumbCLI.png";
 import thumbWebsite from "../../public/images/projects/thumbs/thumbWebsite.png";
+import thumbTippingPoint from "../../public/images/projects/thumbs/thumbTippingPoint.png";
 
 const Projects = () => {
   return (
@@ -40,9 +41,9 @@ const Projects = () => {
           </Heading>
           <SimpleGrid columns={[1, 1, 2]} spacing={4}>
             <ProjectGridItem
-              id="construction"
+              id="tipping-point"
               title="VRC Season: Tipping Point"
-              thumbnail={placeholder}
+              thumbnail={thumbTippingPoint}
             >
               VRC code with substantially more cool control theory for more
               complicated game.
