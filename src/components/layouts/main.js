@@ -32,6 +32,7 @@ const Main = ({ children, router }) => {
           <meta property="twitter:image" content="/images/profile.jpg" />
 
           <meta name="theme-color" content="#458588" />
+          <link rel="icon" href="/favicon.ico" />
 
           <title>Marco Tan - Homepage</title>
         </Head>
