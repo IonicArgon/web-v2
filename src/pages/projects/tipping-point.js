@@ -1,4 +1,11 @@
-import { Badge, Container, Heading, Link, List, ListItem } from "@chakra-ui/react";
+import {
+  Badge,
+  Container,
+  Heading,
+  Link,
+  List,
+  ListItem,
+} from "@chakra-ui/react";
 import NextLink from "next/link";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, ProjectImage, ProjectMeta } from "../../components/project";
@@ -13,16 +20,20 @@ const Project = () => {
           VRC Season: Tipping Point <Badge>2021-2022</Badge>
         </Title>
         <Paragraph>
-          Code for team 1104A&apos;s robot for the VRC game &quot;Tipping Point&quot;.
-          Control code is more complex than last years, including filtering with Kalman 
-          filters for sensor data, EMA filters for PID control, and a trapezoidal
-          motion profile generator for various movements.
+          Code for team 1104A&apos;s robot for the VRC game &quot;Tipping
+          Point&quot;. Control code is more complex than last years, including
+          filtering with Kalman filters for sensor data, EMA filters for PID
+          control, and a trapezoidal motion profile generator for various
+          movements.
         </Paragraph>
 
         <List ml={4} my={4}>
           <ListItem>
             <ProjectMeta>Repo</ProjectMeta>
-            <Link href="https://github.com/Discobots-1104A/2021-2022-branch-sample" isExternal> 
+            <Link
+              href="https://github.com/Discobots-1104A/2021-2022-branch-sample"
+              isExternal
+            >
               2021-2022-branch-sample <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -40,8 +51,10 @@ const Project = () => {
 
         <ProjectImage src="/images/projects/tipping-point/robot.jpg" />
         <Heading variant="image-caption">
-          <em>Note: our robot was donated to 1104Z because half of our team
-          could not go to worlds due to IB exam conflicts.</em>
+          <em>
+            Note: our robot was donated to 1104Z because half of our team could
+            not go to worlds due to IB exam conflicts.
+          </em>
         </Heading>
         <br />
 

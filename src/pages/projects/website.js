@@ -5,7 +5,6 @@ import { Title, ProjectMeta } from "../../components/project";
 import Paragraph from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
-
 const Project = () => {
   return (
     <Layout title="Portfolio Website">
@@ -14,10 +13,10 @@ const Project = () => {
           Portfolio Website <Badge>2022</Badge>
         </Title>
         <Paragraph>
-          A personal website for my portfolio and blog. Built to get 
-          an introduction into web development. Used Next.js and ChakraUI
-          because it was easy to learn and intuitive to use. Hoping to
-          expand on this website further in the future.
+          A personal website for my portfolio and blog. Built to get an
+          introduction into web development. Used Next.js and ChakraUI because
+          it was easy to learn and intuitive to use. Hoping to expand on this
+          website further in the future.
         </Paragraph>
 
         <List ml={4} my={4}>
@@ -29,7 +28,7 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <ProjectMeta>Stack</ProjectMeta>
-              Next.js, ChakraUI, framer-motion, emotion
+            Next.js, ChakraUI, framer-motion, emotion
           </ListItem>
           <ListItem>
             <ProjectMeta>Blogpost</ProjectMeta>

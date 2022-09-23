@@ -70,19 +70,24 @@ const Page = () => {
             Marco is a student and hobbyist programmer in Brampton, Ontario with
             a passion for STEM. He loves anything hands-on, especially when it
             comes to inventing, designing, and creating robotic systems. He is
-            pursuing a career in mechatronics engineering. Currently, he is a
-            mentor for his robotics organization,{" "}
+            pursuing a career in mechatronics engineering. He is a mentor for
+            his robotics organization,{" "}
             <Link href="https://www.bramptonrobotics.org/" isExternal>
               Brampton Robotics
             </Link>
-            .
+            ,&nbsp;and is an iBioMed student at McMaster University in Hamilton,
+            Ontario.
           </Paragraph>
         </Section>
         <Section delay={0.2}>
           <Heading variant="section-title">Timeline 📅</Heading>
           <Timeline>
             <TimelineDate>2004</TimelineDate>
-            Born in Toronto, Canada.
+            Born in Toronto, Ontario.
+          </Timeline>
+          <Timeline>
+            <TimelineDate>2010</TimelineDate>
+            Moved to Brampton, Ontario.
           </Timeline>
           <Timeline>
             <TimelineDate>2018</TimelineDate>
@@ -94,15 +99,24 @@ const Page = () => {
             Joined Brampton Robotics as part of team 1104A.
           </Timeline>
           <Timeline>
+            <TimelineDate>2019-2022</TimelineDate>
+            Mentor for Brampton Robotics.
+          </Timeline>
+          <Timeline>
+            <TimelineDate>2022</TimelineDate>
+            Graduated from Turner Fenton Secondary School.
+          </Timeline>
+          <Timeline>
             <TimelineDate>Present</TimelineDate>
-            Mentors for Brampton Robotics.
+            iBioMed student at McMaster University.
           </Timeline>
         </Section>
         <Section delay={0.3}>
           <Heading variant="section-title">Things I ❤</Heading>
           <Paragraph>
-            Music, Video Games, Playing Saxophone, Medicine, Mechatronics,
-            Robotics
+            Singing (as a bari-tenor), playing instruments (soprano/bass
+            clarinet, tenor saxophone), playing el vidya games, embedded
+            systems, robotics, and programming.
           </Paragraph>
         </Section>
         <Section delay={0.4}>
@@ -113,6 +127,9 @@ const Page = () => {
             </SkillIcon>
             <SkillIcon color="#fabd2f">
               <i className="devicon-javascript-plain"></i>
+            </SkillIcon>
+            <SkillIcon color={useColorModeValue("#000000", "#ffffff")}>
+              <i className="devicon-nextjs-original"></i>
             </SkillIcon>
             <SkillIcon color="#458588">
               <i className="devicon-lua-plain"></i>

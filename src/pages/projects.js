@@ -37,6 +37,51 @@ const Projects = () => {
         <Section delay={0.1}>
           <Divider my={6} />
           <Heading fontSize={20} mb={4}>
+            iBioMed Design Projects
+          </Heading>
+          <SimpleGrid columns={[1, 1, 2]} spacing={4}>
+            <ProjectGridItem
+              id="dp1"
+              title="Design Project 1"
+              thumbnail={placeholder}
+            >
+              {" "}
+              [placeholder]
+            </ProjectGridItem>
+            <ProjectGridItem
+              id="dp2"
+              title="Design Project 2"
+              thumbnail={placeholder}
+            >
+              {" "}
+              [placeholder]
+            </ProjectGridItem>
+          </SimpleGrid>
+        </Section>
+        <Section delay={0.2}>
+          <SimpleGrid columns={[1, 1, 2]} spacing={4}>
+            <ProjectGridItem
+              id="dp3"
+              title="Design Project 3"
+              thumbnail={placeholder}
+            >
+              {" "}
+              [placeholder]
+            </ProjectGridItem>
+            <ProjectGridItem
+              id="dp4"
+              title="Design Project 4"
+              thumbnail={placeholder}
+            >
+              {" "}
+              [placeholder]
+            </ProjectGridItem>
+          </SimpleGrid>
+        </Section>
+
+        <Section delay={0.3}>
+          <Divider my={6} />
+          <Heading fontSize={20} mb={4}>
             VEX Robotics
           </Heading>
           <SimpleGrid columns={[1, 1, 2]} spacing={4}>
@@ -59,7 +104,7 @@ const Projects = () => {
           </SimpleGrid>
         </Section>
 
-        <Section delay={0.2}>
+        <Section delay={0.4}>
           <Divider my={6} />
           <Heading fontSize={20} mb={4}>
             Silly Projects
