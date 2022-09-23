@@ -3,7 +3,7 @@ import {
   Container,
   Heading,
 } from "@chakra-ui/react";
-import Title from "../../components/project";
+import { Title } from "../../components/project";
 import Paragraph from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
