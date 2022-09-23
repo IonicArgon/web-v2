@@ -1,15 +1,9 @@
 import {
   Badge,
   Container,
-  Divider,
   Heading,
-  Link,
-  List,
-  ListItem,
 } from "@chakra-ui/react";
-import NextLink from "next/link";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Title, ProjectMeta } from "../../components/project";
+import Title from "../../components/project";
 import Paragraph from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
