@@ -9,6 +9,7 @@ import thumbChangeUp from "../../public/images/projects/thumbs/thumbChangeUp.png
 import thumbCLI from "../../public/images/projects/thumbs/thumbCLI.png";
 import thumbWebsite from "../../public/images/projects/thumbs/thumbWebsite.png";
 import thumbTippingPoint from "../../public/images/projects/thumbs/thumbTippingPoint.png";
+import thumbDP1 from "../../public/images/projects/thumbs/thumbDP1.png";
 
 const Projects = () => {
   return (
@@ -42,11 +43,11 @@ const Projects = () => {
           <SimpleGrid columns={[1, 1, 2]} spacing={4}>
             <ProjectGridItem
               id="dp1"
-              title="Design Project 1"
-              thumbnail={placeholder}
+              title="DP1 - G.I. Joe, The Endoscopy Unit"
+              thumbnail={thumbDP1}
             >
               {" "}
-              [placeholder]
+              Innovating on the ostomy bag to make it cheaper, more comfortable, and more durable.
             </ProjectGridItem>
             <ProjectGridItem
               id="dp2"
