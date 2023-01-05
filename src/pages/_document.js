@@ -11,6 +11,13 @@ export default class Document extends NextDocument {
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
           />
+          <style> {`
+            .mermaid svg {
+              height: 200% !important;
+              max-width: 300% !important;
+            }
+            `}
+          </style>
         </Head>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />

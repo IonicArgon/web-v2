@@ -1,21 +1,22 @@
 import styled from "@emotion/styled";
 import mermaid from "mermaid";
 
-const GanttContaniner = styled.div`
-  overflow-x: auto;
+const GanttContainer = styled.div`
+  overflow: auto;
   border-radius: 0.5rem;
-  background-color: #282828;
-  box-shadow: 0 0 10px #282828;
+  background-color: #8ec07c;
+  box-shadow: 0 0 10px #8ec07c;
+  padding-left: 2rem;
 `;
 
-const Gantt = ( { children } ) => {
+const Gantt = ({ children }) => {
   return (
-    <GanttContaniner>
+    <GanttContainer>
       {children}
       <script>
-        {mermaid.initialize({ startOnLoad: true, theme: "dark" })}
+        {mermaid.initialize({ startOnLoad: true, theme: "forest" })}
       </script>
-    </GanttContaniner>
+    </GanttContainer>
   )
 }
 
