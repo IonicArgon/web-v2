@@ -20,7 +20,7 @@ export const Title = ({ children }) => {
 };
 
 export const ProjectImage = ({ src, alt }) => {
-  return <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />;
+  return <Image borderRadius="0.5rem" w="full" src={src} alt={alt} mb={4} />;
 };
 
 export const ProjectMeta = ({ children }) => {

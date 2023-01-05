@@ -24,5 +24,5 @@ export const Title = ({ children }) => {
 };
 
 export const BlogImage = ({ src, alt }) => {
-  return <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />;
+  return <Image borderRadius="0.5rem" w="full" src={src} alt={alt} mb={4} />;
 };
