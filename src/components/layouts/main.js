@@ -13,24 +13,6 @@ const Main = ({ children, router }) => {
           <meta name="description" content="Hello, I'm Marco Tan!" />
           <meta name="author" content="Marco Tan" />
 
-          <meta property="og:title" content="Marco Tan - Homepage" />
-          <meta property="og:site_name" content="Marco Tan's Homepage" />
-          <meta property="og:url" content="https://ionicargon.vercel.app/" />
-          <meta property="og:type" content="website" />
-          <meta property="og:image" content="/images/profile.jpg" />
-
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:url"
-            content="https://ionicargon.vercel.app/"
-          />
-          <meta property="twitter:title" content="Marco Tan - Homepage" />
-          <meta
-            property="twitter:description"
-            content="Hello, I'm Marco Tan!"
-          />
-          <meta property="twitter:image" content="/images/profile.jpg" />
-
           <meta name="theme-color" content="#458588" />
           <link rel="icon" href="/favicon.ico" />
 

@@ -30,7 +30,7 @@ const ProfileImage = chakra(Image, {
 
 const Page = () => {
   return (
-    <Layout>
+    <Layout title="Homepage">
       <Container maxW="container.md">
         <Box display={{ md: "flex" }}>
           <Box flexShrink={1}>
