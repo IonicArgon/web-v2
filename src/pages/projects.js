@@ -10,6 +10,7 @@ import thumbCLI from "../../public/images/projects/thumbs/thumbCLI.png";
 import thumbWebsite from "../../public/images/projects/thumbs/thumbWebsite.png";
 import thumbTippingPoint from "../../public/images/projects/thumbs/thumbTippingPoint.png";
 import thumbDP1 from "../../public/images/projects/thumbs/thumbDP1.png";
+import thumbDP2 from "../../public/images/projects/thumbs/thumbDP2.png";
 
 const Projects = () => {
   return (
@@ -51,11 +52,11 @@ const Projects = () => {
             </ProjectGridItem>
             <ProjectGridItem
               id="dp2"
-              title="Design Project 2"
-              thumbnail={placeholder}
+              title="DP2 - Hips Don't Lie"
+              thumbnail={thumbDP2}
             >
               {" "}
-              [placeholder]
+              A hip replacement device that is more comfortable and less invasive for Legg-Calve-Perthes disease patients.
             </ProjectGridItem>
           </SimpleGrid>
         </Section>
