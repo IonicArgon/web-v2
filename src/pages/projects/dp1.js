@@ -50,7 +50,7 @@ const Project = () => {
                 <ProjectMeta>Start date</ProjectMeta>
               </Box>
               <Box>
-                2021-09-22
+                2022-09-22
               </Box>
             </Box>
           </ListItem>
@@ -60,14 +60,24 @@ const Project = () => {
                 <ProjectMeta>End date</ProjectMeta>
               </Box>
               <Box>
-                2021-10-31
+                2022-10-24
               </Box>
             </Box>
           </ListItem>
           <ListItem>
             <Box display="inline-flex">
               <Box>
-                <ProjectMeta>Members</ProjectMeta>
+                <ProjectMeta>Role</ProjectMeta>
+              </Box>
+              <Box>
+                Subject Matter Expert
+              </Box>
+            </Box>
+          </ListItem>
+          <ListItem>
+            <Box display="inline-flex">
+              <Box>
+                <ProjectMeta>Team members</ProjectMeta>
               </Box>
               <Box>
                 Aditi Srinivas, Aleen Al Barbarawi, Josiah Kim, Marco Tan
@@ -147,7 +157,7 @@ const Project = () => {
 
         <Heading variant="section-title">Gantt Charts</Heading>
         <Gantt>
-          <Mermaid id="gantt" chart={`
+          <Mermaid chart={`
                 gantt
                 title DP1 - Preliminary Gantt Chart
                 dateFormat  YYYY-MM-DD
@@ -171,7 +181,7 @@ const Project = () => {
         <br />
 
         <Gantt>
-          <Mermaid id="gantt" chart={`
+          <Mermaid chart={`
                 gantt
                 title DP1 - Final Gantt Chart
                 dateFormat  YYYY-MM-DD
