@@ -12,6 +12,7 @@ import thumbTippingPoint from "../../public/images/projects/thumbs/thumbTippingP
 import thumbDP1 from "../../public/images/projects/thumbs/thumbDP1.png";
 import thumbDP2 from "../../public/images/projects/thumbs/thumbDP2.png";
 import thumbDP3 from "../../public/images/projects/thumbs/thumbDP3.png";
+import thumbDP4 from "../../public/images/projects/thumbs/thumbDP4.png";
 
 const Projects = () => {
   return (
@@ -73,11 +74,11 @@ const Projects = () => {
             </ProjectGridItem>
             <ProjectGridItem
               id="dp4"
-              title="Design Project 4"
-              thumbnail={placeholder}
+              title="DP4 - Not a Pun, It's Real Life"
+              thumbnail={thumbDP4}
             >
               {" "}
-              [placeholder]
+              A software-based approach to managing temperature sensitivity in patients with Multiple Sclerosis.
             </ProjectGridItem>
           </SimpleGrid>
         </Section>

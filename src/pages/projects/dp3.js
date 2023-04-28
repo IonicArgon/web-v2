@@ -89,7 +89,7 @@ const Project = () => {
                 <ProjectMeta>Technical Skills</ProjectMeta>
               </Box>
               <Box>
-                Market Research, User Research, Ideation, Prototyping, Python, Testing, 
+                Python, Unit Testing, Raspberry Pi
               </Box>
             </Box>
           </ListItem>
@@ -99,7 +99,7 @@ const Project = () => {
                 <ProjectMeta>Soft Skills</ProjectMeta>
               </Box>
               <Box>
-                Teamwork, Leadership, Problem-solving, Oral and written Communication
+                Teamwork, Leadership, Problem-solving, Oral and written Communication, Market Research, User Research, Ideation, Prototyping, 
               </Box>
             </Box>
           </ListItem>
