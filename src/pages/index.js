@@ -8,6 +8,9 @@ import {
   List,
   ListItem,
   useColorModeValue,
+  Flex,
+  Spacer,
+  Center
 } from "@chakra-ui/react";
 import GreetingWrapper from "../hooks/greeting";
 import Image from "next/image";
@@ -22,6 +25,7 @@ import {
   IoLogoFacebook,
   IoLogoLinkedin,
 } from "react-icons/io";
+import { WarningTwoIcon } from "@chakra-ui/icons";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: (prop) =>
@@ -64,7 +68,25 @@ const Page = () => {
             </Box>
           </Box>
         </Box>
+        <br />
         <Section delay={0.1}>
+          <Flex
+            bgColor={useColorModeValue("#fb4934", "#cc241d")}
+            padding={2}
+            borderRadius="lg"
+            textColor='#d8d8d8'
+          >
+            <Center>
+              <WarningTwoIcon color="#fabd2f" boxSize={10}/>
+            </Center>
+            <Spacer />
+            <Box flex='50'>
+              Hey, this website is probably going to go down soon. If I&apos;m being real with you, this current one is held together by duct tape and hope. I&apos;ll be making a new one using Angular, probably. Thanks for your patience!
+            </Box>
+          </Flex>
+        </Section>
+
+        <Section delay={0.2}>
           <Heading variant="section-title">About me 📝</Heading>
           <Paragraph>
             Marco is a student and hobbyist programmer in Brampton, Ontario with
@@ -79,7 +101,7 @@ const Page = () => {
             Ontario.
           </Paragraph>
         </Section>
-        <Section delay={0.2}>
+        <Section delay={0.3}>
           <Heading variant="section-title">Timeline 📅</Heading>
           <Timeline>
             <TimelineDate>2004</TimelineDate>
@@ -111,7 +133,7 @@ const Page = () => {
             iBioMed student at McMaster University.
           </Timeline>
         </Section>
-        <Section delay={0.3}>
+        <Section delay={0.4}>
           <Heading variant="section-title">Things I ❤</Heading>
           <Paragraph>
             Singing (as a bari-tenor), playing instruments (soprano/bass
@@ -119,7 +141,7 @@ const Page = () => {
             systems, robotics, and programming.
           </Paragraph>
         </Section>
-        <Section delay={0.4}>
+        <Section delay={0.5}>
           <Heading variant="section-title">Things I 🧠</Heading>
           <Skill>
             <SkillIcon color="#458588">
@@ -148,7 +170,7 @@ const Page = () => {
             </SkillIcon>
           </Skill>
         </Section>
-        <Section delay={0.5}>
+        <Section delay={0.6}>
           <Heading variant="section-title">On the 🌐</Heading>
           <List>
             <ListItem>
