@@ -24,7 +24,7 @@ const Project = () => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/watch?v=oMGegGtGb6E"
+            src="https://www.youtube.com/embed/oMGegGtGb6E"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
