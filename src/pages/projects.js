@@ -11,6 +11,7 @@ import thumbWebsite from "../../public/images/projects/thumbs/thumbWebsite.png";
 import thumbTippingPoint from "../../public/images/projects/thumbs/thumbTippingPoint.png";
 import thumbDP1 from "../../public/images/projects/thumbs/thumbDP1.png";
 import thumbDP2 from "../../public/images/projects/thumbs/thumbDP2.png";
+import thumbDP3 from "../../public/images/projects/thumbs/thumbDP3.png";
 
 const Projects = () => {
   return (
@@ -64,11 +65,11 @@ const Projects = () => {
           <SimpleGrid columns={[1, 1, 2]} spacing={4}>
             <ProjectGridItem
               id="dp3"
-              title="Design Project 3"
-              thumbnail={placeholder}
+              title="DP3 - A Sense of Independence"
+              thumbnail={thumbDP3}
             >
               {" "}
-              [placeholder]
+              An accessibility solution for paralysed peoples to control power wheelchairs with head gestures.
             </ProjectGridItem>
             <ProjectGridItem
               id="dp4"
