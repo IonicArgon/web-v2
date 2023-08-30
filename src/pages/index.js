@@ -81,7 +81,7 @@ const Page = () => {
             </Center>
             <Spacer />
             <Box flex='50'>
-              Hey, this website is probably going to go down soon. If I&apos;m being real with you, this current one is held together by duct tape and hope. I&apos;ll be making a new one using Angular, probably. Thanks for your patience!
+              so i had a new website up and running and turns out i messed up because contentlayer causes an infinite fetch loop when i try to use it in my client side Chakra UI components so im gonna have to fix that and then i can actually use it
             </Box>
           </Flex>
         </Section>
